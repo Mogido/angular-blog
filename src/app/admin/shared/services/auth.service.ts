@@ -40,8 +40,6 @@ export class AuthService {
     return !!this.token;
   }
 
-  // TODO: нормально разобраться с типами
-
   private setToken(resp: FbAuthResponse | null) {
     if (resp && resp.expiresIn && resp.idToken) {
       const expDate = new Date(new Date().getTime() + +resp.expiresIn * 1000);
