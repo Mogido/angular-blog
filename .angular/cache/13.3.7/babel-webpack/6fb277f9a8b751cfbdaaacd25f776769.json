@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const environment = {\n  apiKey: 'AIzaSyBHCWv2edWmNy_9CciPLmTXIcyoRzzD_JA',\n  production: true,\n  fbDbUrl: 'https://angular-blog-420c6-default-rtdb.firebaseio.com'\n};","map":null,"metadata":{},"sourceType":"module"}
